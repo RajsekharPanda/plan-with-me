@@ -22,7 +22,7 @@ function Card({id, image, info, price, name, removeTour}){
                 </div>
                 <div className="descreption">
                     {descreption}
-                    <span className="" onClick={readmoreHandler}>
+                    <span className="read-more" onClick={readmoreHandler}>
                         {readmore? 'show less' : 'read more'}
                     </span>
                 </div>
